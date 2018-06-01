@@ -52,3 +52,4 @@ def pearson(rating1, rating2):
         return 0
     else:
         return (xy_sum - (x_sum * y_sum)/n)/denominator
+    
