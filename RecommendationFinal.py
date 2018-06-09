@@ -53,7 +53,7 @@ class recommender:
         self.username2id = {}
         self.userid2name = {}
         self.productid2name = {}
-        # for some reason I want to save the name of the metric
+        
         self.metric = metric
         if self.metric == 'pearson':
             self.fn = self.pearson
